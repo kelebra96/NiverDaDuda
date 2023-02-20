@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family:harry_p ;
+    src: url('../fonts/harry_p/HARRYP__.TTF');
+}
+body{
+    padding: 5px;
+}
+#potter{
+    font-family: harry_p;    
+}
+#navbar{
+    color: white;
+    font-family: harry_p;
+    font-size: 45px;     
+}
+.presenca{
+    background: #0000;
+}
+#textApresentation{
+    font-family: harry_p;
+    font-size: 24px;
+    color: #ffff;
+}
+#textnavbar{
+    color: white;
+}
+.parallax{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    
+}
+.p1{
+    background-image: url('../img/mapaDoMaroto.png');    
+}
+#p1{
+    height: 200px;     
+}
+#portfolio{
+    background-color: #222222;
+}
+.barra{
+    background-color: rgb(105,2,3);
+    padding: 10px;   
+}
+@keyframes animacao{
+    0%{background-color:yellow;}
+    50%{ background-color: #29f964;margin-left:10px;margin-right: 10px;}
+    100%{ background-color: yellow;}
+}
+#botao{
+    animation-name: animacao;
+    animation-duration: 2s;
+    background-color: #F2CD5C;
+    border: none;
+    border-radius: 25px;    
+    align-items: center;
+    color: #000000;    
+    font-weight: bold;
+    animation-iteration-count: infinite;
+    font-size: 13px;
+}
+
+#presentes{
+    border-radius: 50px;
+}
+#formulario{
+    font-family: harry_p;
+    color:red;
+}
+#redeSociais{
+    font-family: harry_p;
+    color:red
+}
+#icon{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.social{
+    background-color: #222222;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.depoimentos{
+    margin: 3px;
+    border: solid 1px #000000;
+    padding: 8px;
+    border-radius: 25px;
+}
+#posts{
+    width: 85px;
+    height: 95px;
+    border-radius: 45px;
+}
+.casas{
+    font-family: harry_p;
+    text-align: center;    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.casas h5{
+    font-size: 30px;
+}
+.casas p{
+    color: red;
+    font-size: 28px;
+}
+.casas img{
+    width:100%
+}
+
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:harry_p ;
+    src: url('../fonts/harry_p/HARRYP__.TTF');
+}
+#titulo{
+    background-color: #000;   
+    font-family: harry_p;   
+}
+#titulo h5{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+i{
+    font-size:96px;
+}
+#btn{
+    font-weight: bold;
+}

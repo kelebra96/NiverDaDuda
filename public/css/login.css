@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #b8b6b6;
+    font-family: sans-serif;
+}
+#login{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 350px;    
+    height: 280px;
+    margin: 5px;
+    border: solid 1px white;
+    border-radius: 25px;
+
+}
